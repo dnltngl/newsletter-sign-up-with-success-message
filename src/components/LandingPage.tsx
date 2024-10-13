@@ -20,31 +20,31 @@ function LandingPage(){
             <h1 className="text-4xl font-Roboto font-bold mt-3">
               Stay updated!
             </h1>
-            <p className="text-base font-RobotoRegular text-neutral-DarkSlateGrey mt-4">
+            <p className="text-base font-RobotoRegular text-neutral-DarkSlateGrey mt-4 font-semibold">
               Join 60,000+ product managers receiving monthly updates on:
             </p>
             <ul className="list">
               <div className="flex gap-5">
                 <img className="  " src={iconList} alt="" />
-                <li className="mt-4">
+                <li className="mt-4 text-sm font-semibold">
                   Product discovery and building what matters And much more!
                 </li>
               </div>
               <div className="flex gap-5">
                 <img className="  " src={iconList} alt="" />
-                <li className="mt-4">
+                <li className="mt-4 text-sm font-semibold">
                   Measuring to ensure updates are a success
                 </li>
               </div>
               <div className="flex gap-5">
                 <img className="  " src={iconList} alt="" />
-                <li className="mt-4">
+                <li className="mt-4 text-sm font-semibold">
                   Measuring to ensure updates are a success
                 </li>
               </div>
             </ul>
             <form className="mt-7" action="">
-                <h2 className="text-sm mb-2 font-semibold ">Email address</h2>
+              <h2 className="text-xs mb-2 font-semibold ">Email address</h2>
               <label htmlFor="Email address"></label>
               <input
                 className="outline p-2 w-full rounded-lg outline-neutral-Grey"
@@ -52,7 +52,12 @@ function LandingPage(){
                 name="email"
                 placeholder="email@company.com"
               />
-              <button className="submitButton w-full outline p-3 rounded-lg mt-5 bg-neutral-DarkSlateGrey text-neutral-White font-Roboto font-bold text-sm" type="submit">Subscribe to monthly newsletter</button>
+              <button
+                className="submitButton w-full outline p-3 rounded-lg mt-5 bg-neutral-DarkSlateGrey text-neutral-White font-Roboto font-bold text-sm"
+                type="submit"
+              >
+                Subscribe to monthly newsletter
+              </button>
             </form>
           </div>
         </div>
