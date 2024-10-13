@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Font-Face Declarations */
+@font-face {
+  font-family: 'RobotoBold';
+  src: url('./assets/fonts/Roboto-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url('./assets/fonts/Roboto-Regular.ttf') format('truetype');
+  font-style: normal; /* Changed to normal if the font is not italicized */
+}
