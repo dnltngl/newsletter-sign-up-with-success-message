@@ -107,7 +107,11 @@ function LandingPage() {
           <div className="bg-white p-9 rounded-lg shadow-lg sm:my-72 sm:p-10 max-w-sm w-full sm:max-w-xs">
             <div className="flex mt-24 sm:mt-1  mb-4 sm:mb-2">
               <div className="">
-                <img className="h-14 sm:h-10 sm:mb-3 mb-5" src={iconSuccess} alt="" />
+                <img
+                  className="h-14 sm:h-10 sm:mb-3 mb-5"
+                  src={iconSuccess}
+                  alt=""
+                />
               </div>
             </div>
             <h2 className="text-4xl font-bold ">Thanks for subscribing!</h2>
