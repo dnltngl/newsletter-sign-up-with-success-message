@@ -33,7 +33,7 @@ function LandingPage() {
   };
 
   return (
-    <section className="bg-white sm:outline-neutral-DarkSlateGrey rounded-3xl">
+    <section className="bg-white sm:outline-neutral-CharcoalGrey rounded-3xl">
       <div className="font-Roboto sm:p-8">
         <div className="sm:flex sm:gap-3">
           <picture className="order-2 sm:order-1 sm:max-h-fit md:flex">
@@ -122,7 +122,7 @@ function LandingPage() {
             </p>
             <button
               onClick={closeModal}
-              className="  bg-neutral-DarkSlateGrey text-neutral-White  text-sm hover:bg-gradient-to-r from-pink-500 to-red-500 w-full py-3 mt-40 sm:mt-1 rounded-lg font-Roboto font-bold hover:shadow-lg transition-shadow"
+              className="  bg-neutral-CharcoalGrey text-neutral-White  text-sm hover:bg-gradient-to-r from-pink-500 to-red-500 w-full py-3 mt-40 sm:mt-1 rounded-lg font-Roboto font-bold hover:shadow-lg transition-shadow"
             >
               Dismiss message
             </button>
